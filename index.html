@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>電子二乙檔案下載中心</title>
+  <link rel="stylesheet"
+    href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/bootstrap.min.css?version=8.7.43">
+  <link rel="stylesheet"
+    href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/font-awesome.min.css?version=8.7.43">
+  <link rel="stylesheet" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/tip_normal.css?version=8.7.43">
+
+  <link rel="stylesheet"
+    href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/tip_default.css?version=8.7.43">
+  <link rel="stylesheet"
+    href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/tip_station_map.css?version=8.7.43">
+  <link rel="stylesheet"
+    href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/jquery-ui.min.css?version=8.7.43">
+  <link rel="stylesheet"
+    href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/bootstrap-datepicker.css?version=8.7.43">
+  <link rel="stylesheet"
+    href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/bootstrap-datepicker.standalone.css?version=8.7.43">
+  <link rel="f">
+  <link href="/images/icon.png" rel="icon" type="image/ico">
+  <style>
+    .ice{
+      border-bottom-width: 6px;
+    }
+    .icon-info{
+      width: 201px;
+      position: relative;
+      left: 222px;
+      top: -115px;
+    }
+    .icon-bd{
+      border: 3px solid transparent;
+      box-shadow: 0px 0px 0 8px #1976D2, inset 0 0 0 3px #FFC107;
+    }
+  </style>
+
+  <link rel="stylesheet"
+    href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/jquery-ui.min.css?version=8.7.43">
+  <link rel="stylesheet"
+    href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/bootstrap-datepicker.css?version=8.7.43">
+  <link rel="stylesheet"
+    href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/bootstrap-datepicker.standalone.css?version=8.7.43">
+  <link rel="stylesheet" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/jquery-ui.autocomplete.css">
+  <link rel="stylesheet" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/marquee.css">
+  <link rel="stylesheet" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/jquery-confirm.min.css">
+</head>
+
+<body>
+  ✨welcome✨<br>
+  <div>
+     
+ 
+  
+  <a href="https://forms.gle/aeSvWwDtwuS6oq5KA" style="margin: 5px;" class="btn btn-3d" target="_blank" id="unlockButton">數位電路上傳</a> </div>
+  <div>
+     <a href="https://forms.gle/kx3vtwW3dHxwp7eX8" style="margin: 5px;" class="btn btn-3d" target="_blank" >公告上傳</a>
+  </div>
+  <div>
+     <a href="file/8-2-6.zip" style="margin: 5px;" class="btn btn-3d" target="_blank" >數位電路下載</a>
+  </div>
+  <div>
+     <a href="/form/update.html" style="margin: 5px;" class="btn btn-3d" target="_blank" >前往上傳頁面</a>
+  </div>
+  <div>
+    <button onclick="center.show()" style="margin: 5px;" class="btn btn-3d">檔案中心</button>
+  </div>
+    <style>
+    dialog{
+      border: none;
+      box-shadow: 0 2px 6px #ccc;
+      border-radius: 10px;
+    }
+    dialog::backdrop {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    </style>
+  <div style="
+    width: 44px;
+  ">
+    <button onclick="devset.show()">張貼</button>
+  </div>
+  <div class="icon-info icon-bd">
+    <span>圖示 / Icon：<br>
+    ▲: 公開中/In Operation<br>
+    ⊕: 未開放/Not yet open<br>
+    ▼: 已閉鎖/Closed</span>
+  </div>
+  
+  <dialog id="devset">
+  <div>
+    <input type="password" id="passwordInput" placeholder="輸入密碼">
+    <script src="https://cttb.liuyork.repl.co/doct/js/pwd.js"></script>
+  </div>
+    <button id="unlockButton" style="position: absolute;right: 17px;" disabled>解鎖</button>
+    <button onclick="devset.close()" style="position: relative;right: 1px;">🔙</button>
+  </dialog>
+  <dialog id="center">
+  <div>
+    <input type="password" id="passwordInput" placeholder="輸入密碼">
+    <script src="javast/pwd.js"></script>
+  </div>
+    <button id="unlockButton" style="position: absolute;right: 17px;"><a href="center/file.html">解鎖</a></button>
+    <button onclick="center.close()" style="position: relative;right: 1px;">🔙</button>
+  </dialog>
+  <div id="hiddenDiv" style="display: block;">
+  <iframe width="500px" height="350px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSzED-NQqD7tLhefq4TTVGx88E50ybFGncnHoCA5JNexz2lfz7Dwpti9c9x1j6Un8YyO9-m3wswg5uC/pubhtml?widget=true&amp;headers=false"></iframe>
+  <div>
+    <table border="2" cellpadding="0" cellspacing="0" dir="ltr">
+      <tbody>
+        <tr class="ice">
+          <td>NO.</td>
+          <td>檔案名稱</td>
+          <td>連結</td>
+          <td>上架時間</td>
+          <td><center>下架時間</center></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>射擊隨耦器測量&nbsp;</td>
+          <td><a href="https://dload.liuyork.repl.co/file/射擊隨耦器測量.jpeg">🌐</a>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>射擊隨耦器測量2</td>
+          <td><a href="/file/射擊隨耦器測量2.jpeg">🌐</a>
+          </td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>7-zip.chm</td>
+          <td><a href="file/7-zip.chm">🌐</a>
+          </td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>FileZilla FTP Client</td>
+          <td><a href="file/FileZilla FTP Client.zip">🌐</a></td>
+          <td></td>
+          <td>2023/12/31</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><span>Quartus5(時鐘+計數器)</span></td>
+          <td><a href="file/Quartus5.zip">🌐</a></td>
+          <td>2024/01/01</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>28proteus</td>
+          <td><a href="file/28proteus.zip">🌐</a></td>
+          <td>2024/01/02</td>
+          <td>、、/、、/03</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--https://dloadliuyork.repl.co/-->
+  </div>
+</div>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  
+</body>
+
+</html>
